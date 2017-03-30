@@ -12,7 +12,7 @@
   "files": [
     "LICENSE",
     "index.js",
-    "dist/",
+    "dist/"
   ],
   "license": "MIT",
   "devDependencies": {
