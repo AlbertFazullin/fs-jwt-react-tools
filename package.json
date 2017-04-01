@@ -1,6 +1,6 @@
 {
   "name": "fs-jwt-react-tools",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "./dist/index.js",
   "repository": "git@github.com:AlbertFazullin/fs-jwt-react-tools.git",
   "author": "Albert Fazullin <albert.fazullin@flatstack.com>",
