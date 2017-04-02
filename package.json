@@ -6,7 +6,9 @@
   "author": "Albert Fazullin <albert.fazullin@flatstack.com>",
   "jest": {
     "verbose": true,
-    "setupFiles": ["<rootDir>/__mocks__/localStorageMock.js"],
+    "setupFiles": [
+      "<rootDir>/__mocks__/localStorageMock.js"
+    ],
     "moduleNameMapper": {
       "^.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
       "^.+\\.(css|less|pcss)$": "identity-obj-proxy"
@@ -35,6 +37,7 @@
     "babel-preset-react": "^6.23.0",
     "babel-preset-stage-0": "^6.22.0",
     "chai": "^3.5.0",
+    "coveralls": "^2.13.0",
     "enzyme": "^2.8.0",
     "eslint": "^3.18.0",
     "eslint-config-fs": "^0.1.0",
